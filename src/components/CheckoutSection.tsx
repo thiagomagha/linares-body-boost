@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
-
 const CheckoutSection = () => {
-  return (
-    <section className="bg-gray-50 section-padding" id="checkout">
+  return <section className="bg-gray-50 section-padding" id="checkout">
       <div className="section-container">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
@@ -66,12 +63,7 @@ const CheckoutSection = () => {
               <p className="text-3xl font-bold text-fitness-green">R$297</p>
             </div>
             
-            <Button
-              size="lg"
-              className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto w-full"
-            >
-              👉 Quero meu plano 100% personalizado agora
-            </Button>
+            <Button size="lg" className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto w-full">Plano 100% personalizado</Button>
             
             <div className="mt-4 flex justify-center gap-2">
               <img src="https://images.unsplash.com/photo-1605460435173-c8cbd0c76197?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=100" alt="Pagamento Seguro" className="h-6" />
@@ -85,8 +77,6 @@ const CheckoutSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CheckoutSection;
