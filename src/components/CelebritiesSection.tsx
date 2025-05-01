@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Check } from "lucide-react";
 
 interface Celebrity {
   name: string;

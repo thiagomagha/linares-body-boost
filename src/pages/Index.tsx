@@ -11,7 +11,6 @@ import FaqSection from '@/components/FaqSection';
 import CheckoutSection from '@/components/CheckoutSection';
 import FooterSection from '@/components/FooterSection';
 import FixedCTA from '@/components/FixedCTA';
-import { Check } from "lucide-react";
 
 const Index = () => {
   return (
