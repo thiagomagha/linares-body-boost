@@ -1,17 +1,15 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
-
 const UrgencySection = () => {
   const scrollToCheckout = () => {
     const checkoutSection = document.getElementById('checkout');
     if (checkoutSection) {
-      checkoutSection.scrollIntoView({ behavior: 'smooth' });
+      checkoutSection.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section className="bg-slate-900 text-white section-padding">
+  return <section className="bg-slate-900 text-white section-padding">
       <div className="section-container">
         <div className="max-w-3xl mx-auto text-center">
           <div className="mb-4 text-amber-400 text-4xl">⚠️</div>
@@ -23,21 +21,13 @@ const UrgencySection = () => {
             <br />Se o botão abaixo ainda estiver ativo, ainda temos vagas abertas.
           </p>
           
-          <Button
-            onClick={scrollToCheckout}
-            size="lg"
-            className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto animate-pulse-custom"
-          >
-            👉 Sim, quero garantir minha vaga agora
-          </Button>
+          <Button onClick={scrollToCheckout} size="lg" className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto animate-pulse-custom">👉 Sim, garantir uma vaga</Button>
           
           <p className="mt-4 text-sm text-gray-400">
             Vagas limitadas - Análise feita pessoalmente por Filipe Linares
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default UrgencySection;
