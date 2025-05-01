@@ -1,18 +1,16 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
-
 const ProcessSection = () => {
   const scrollToCheckout = () => {
     const checkoutSection = document.getElementById('checkout');
     if (checkoutSection) {
-      checkoutSection.scrollIntoView({ behavior: 'smooth' });
+      checkoutSection.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section className="bg-gray-50 section-padding">
+  return <section className="bg-gray-50 section-padding">
       <div className="section-container">
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
           Como funciona a consultoria
@@ -65,20 +63,12 @@ const ProcessSection = () => {
           </h3>
           
           <ul className="space-y-3 mb-6">
-            {[
-              "Plano alimentar personalizado",
-              "Macros e calorias calculadas para seu corpo",
-              "Recomendações práticas para seu dia a dia",
-              "Lista de compras personalizada",
-              "Substituições saudáveis para suas preferências"
-            ].map((item, index) => (
-              <li key={index} className="flex items-start gap-2">
+            {["Plano alimentar personalizado", "Macros e calorias calculadas para seu corpo", "Recomendações práticas para seu dia a dia", "Lista de compras personalizada", "Substituições saudáveis para suas preferências"].map((item, index) => <li key={index} className="flex items-start gap-2">
                 <div className="bg-fitness-green rounded-full p-1 mt-1">
                   <Check className="h-3 w-3 text-white" />
                 </div>
                 <span>{item}</span>
-              </li>
-            ))}
+              </li>)}
           </ul>
           
           <div className="border-t border-gray-200 pt-4 mt-4">
@@ -108,17 +98,9 @@ const ProcessSection = () => {
             <p className="text-3xl font-bold text-fitness-green">R$297</p>
           </div>
           
-          <Button
-            onClick={scrollToCheckout}
-            size="lg"
-            className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto"
-          >
-            🔒 Quero meu plano personalizado agora
-          </Button>
+          <Button onClick={scrollToCheckout} size="lg" className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto">🔒 Quero meu plano personalizado</Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ProcessSection;
