@@ -31,7 +31,7 @@ const celebrities: Celebrity[] = [
   }, 
   {
     name: "Ramon Dino",
-    image: "https://images.unsplash.com/photo-1583454155184-870a1f63aebc?auto=format&fit=crop&q=80&ixlib=rb-4.0.3",
+    image: "/lovable-uploads/1b80c166-4028-4054-aa0d-6c6436e8c3e7.png",
     description: "Fisiculturista"
   }
 ];
