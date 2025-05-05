@@ -21,7 +21,7 @@ const celebrities: Celebrity[] = [
   }, 
   {
     name: "Tirullipa",
-    image: "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?auto=format&fit=crop&q=80&ixlib=rb-4.0.3",
+    image: "/lovable-uploads/873d3c64-3d79-4bd1-81b3-46f8dd0246ff.png",
     description: "Humorista"
   }, 
   {
