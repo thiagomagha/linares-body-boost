@@ -16,9 +16,7 @@ const HeroSection = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-6 leading-tight">
             <span className="text-gradient">O mesmo plano alimentar</span> que transformou o corpo do PK Lipe, Pablo Marçal, Tirullipa, Peixe e Ramon Dino
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-700 font-medium">
-            — agora 100% adaptado ao seu corpo, rotina e objetivos.
-          </p>
+          <p className="text-xl md:text-2xl mb-8 text-gray-700 font-medium">100% adaptado ao seu corpo, rotina e objetivos.</p>
           
           <div className="space-y-3 mb-8">
             {["Sem sair de casa", "Sem academia obrigatória", "Sem suplemento caro"].map((item, index) => <div key={index} className="flex items-center gap-2">
@@ -44,7 +42,7 @@ const HeroSection = () => {
         <div className="w-full lg:w-1/2 flex justify-center">
           <div className="relative">
             <div className="bg-white p-4 rounded-lg shadow-lg max-w-md">
-              <img src="https://images.unsplash.com/photo-1606889464198-fcb18894cf50?auto=format&fit=crop&q=80&ixlib=rb-4.0.3" alt="Filipe Linares" className="rounded-lg object-cover w-full aspect-[4/3]" />
+              <img alt="Filipe Linares" className="rounded-lg object-cover w-full aspect-[4/3]" src="/lovable-uploads/469e6102-8b42-4d98-9c52-8f2cd6c86f8a.jpg" />
               <div className="absolute top-2 right-2 bg-fitness-red text-white text-xs font-bold px-2 py-1 rounded">
                 ESPECIALISTA
               </div>
