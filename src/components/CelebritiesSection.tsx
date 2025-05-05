@@ -26,7 +26,7 @@ const celebrities: Celebrity[] = [
   }, 
   {
     name: "Peixe",
-    image: "https://images.unsplash.com/photo-1548793188-099ea2bb5d8e?auto=format&fit=crop&q=80&ixlib=rb-4.0.3",
+    image: "/lovable-uploads/d9dcaed5-098c-4cf6-8021-901846180cb9.png",
     description: "Atleta"
   }, 
   {
