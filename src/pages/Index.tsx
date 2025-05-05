@@ -4,6 +4,7 @@ import HeroSection from '@/components/HeroSection';
 import CelebritiesSection from '@/components/CelebritiesSection';
 import ProblemSection from '@/components/ProblemSection';
 import ProcessSection from '@/components/ProcessSection';
+import BeforeAfterSection from '@/components/BeforeAfterSection';
 import ValueSection from '@/components/ValueSection';
 import GuaranteeSection from '@/components/GuaranteeSection';
 import UrgencySection from '@/components/UrgencySection';
@@ -29,6 +30,9 @@ const Index = () => {
       
       {/* Process Section */}
       <ProcessSection />
+      
+      {/* Before/After Section */}
+      <BeforeAfterSection />
       
       {/* Value Section */}
       <ValueSection />
