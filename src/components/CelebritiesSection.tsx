@@ -11,7 +11,7 @@ interface Celebrity {
 const celebrities: Celebrity[] = [
   {
     name: "PK Lipe",
-    image: "https://images.unsplash.com/photo-1568660357733-823cbdcda7a4?auto=format&fit=crop&q=80&ixlib=rb-4.0.3",
+    image: "/lovable-uploads/10b7c465-d699-46da-a45d-e78dab93907b.png",
     description: "Influencer"
   }, 
   {
