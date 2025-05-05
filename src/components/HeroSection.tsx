@@ -1,8 +1,6 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
-
 const HeroSection = () => {
   const scrollToCheckout = () => {
     const checkoutSection = document.getElementById('checkout');
@@ -12,7 +10,6 @@ const HeroSection = () => {
       });
     }
   };
-  
   return <section className="bg-gradient-to-br from-gray-50 to-gray-100 section-padding">
       <div className="section-container flex flex-col lg:flex-row items-center">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
@@ -35,8 +32,8 @@ const HeroSection = () => {
           </p>
           
           <div className="mb-6">
-            <div className="text-sm text-gray-500 mb-1">Por apenas</div>
-            <div className="text-3xl font-bold text-fitness-green">R$297</div>
+            
+            
           </div>
           
           <Button onClick={scrollToCheckout} size="lg" className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto">🔒 Quero meu plano personalizado</Button>
@@ -46,11 +43,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className="bg-gradient-to-b from-slate-800 to-slate-950 p-5 rounded-xl shadow-2xl max-w-md transform hover:scale-[1.02] transition-transform duration-300 overflow-hidden">
               <div className="relative">
-                <img 
-                  alt="Filipe Linares" 
-                  className="rounded-lg object-cover w-full aspect-[4/3] hover:scale-105 transition-all duration-500 ease-in-out" 
-                  src="/lovable-uploads/469e6102-8b42-4d98-9c52-8f2cd6c86f8a.jpg" 
-                />
+                <img alt="Filipe Linares" className="rounded-lg object-cover w-full aspect-[4/3] hover:scale-105 transition-all duration-500 ease-in-out" src="/lovable-uploads/469e6102-8b42-4d98-9c52-8f2cd6c86f8a.jpg" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
               
@@ -66,5 +59,4 @@ const HeroSection = () => {
       </div>
     </section>;
 };
-
 export default HeroSection;
