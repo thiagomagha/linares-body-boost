@@ -31,7 +31,7 @@ const Index = () => {
       {/* Process Section */}
       <ProcessSection />
       
-      {/* Before/After Section (Added right after section 3 - ProcessSection) */}
+      {/* Before/After Section */}
       <BeforeAfterSection />
       
       {/* Value Section */}

@@ -59,9 +59,7 @@ const CelebritiesSection = () => {
               </div>
               
               <div className="absolute top-3 right-3">
-                <div className="bg-fitness-green rounded-full p-1">
-                  <Check className="h-4 w-4 text-white" />
-                </div>
+                
               </div>
             </div>)}
         </div>
