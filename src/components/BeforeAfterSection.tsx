@@ -16,7 +16,7 @@ const BeforeAfterSection = () => {
               <CardContent className="p-0">
                 <div className="relative">
                   <img 
-                    src="/lovable-uploads/9b2ecba3-c23e-4e84-b355-0400609a94ce.png" 
+                    src="/lovable-uploads/f4d17eb5-21ff-4254-a548-2ee7a437b163.png" 
                     alt="Transformação corporal antes e depois" 
                     className="w-full h-auto"
                   />
@@ -37,7 +37,7 @@ const BeforeAfterSection = () => {
               <CardContent className="p-0">
                 <div className="relative">
                   <img 
-                    src="/lovable-uploads/edf33400-c726-4e71-b112-817246db9f30.png" 
+                    src="/lovable-uploads/7b4ce13c-cf10-42cc-8311-aa1eb1557088.png" 
                     alt="Transformação corporal antes e depois" 
                     className="w-full h-auto"
                   />
