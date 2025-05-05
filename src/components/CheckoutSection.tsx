@@ -66,9 +66,9 @@ const CheckoutSection = () => {
             <Button size="lg" className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto w-full">Plano 100% personalizado</Button>
             
             <div className="mt-4 flex justify-center gap-2">
-              <img src="https://images.unsplash.com/photo-1605460435173-c8cbd0c76197?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=100" alt="Pagamento Seguro" className="h-6" />
-              <img src="https://images.unsplash.com/photo-1584453702222-393bd4de9af1?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=100" alt="Pagamento Seguro" className="h-6" />
-              <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=100" alt="Pagamento Seguro" className="h-6" />
+              
+              
+              
             </div>
             
             <p className="mt-3 text-xs text-gray-500">
