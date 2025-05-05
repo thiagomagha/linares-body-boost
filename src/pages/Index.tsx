@@ -3,6 +3,7 @@ import React from 'react';
 import HeroSection from '@/components/HeroSection';
 import CelebritiesSection from '@/components/CelebritiesSection';
 import ProblemSection from '@/components/ProblemSection';
+import AdditionalTransformationsSection from '@/components/AdditionalTransformationsSection';
 import ProcessSection from '@/components/ProcessSection';
 import BeforeAfterSection from '@/components/BeforeAfterSection';
 import ValueSection from '@/components/ValueSection';
@@ -27,6 +28,9 @@ const Index = () => {
       
       {/* Problem Section */}
       <ProblemSection />
+      
+      {/* Additional Transformations Section */}
+      <AdditionalTransformationsSection />
       
       {/* Process Section */}
       <ProcessSection />
