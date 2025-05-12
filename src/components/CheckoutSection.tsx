@@ -1,6 +1,8 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
+
 const CheckoutSection = () => {
   return <section className="bg-gray-50 section-padding" id="checkout">
       <div className="section-container">
@@ -10,7 +12,7 @@ const CheckoutSection = () => {
           </h2>
           
           <p className="text-lg mb-8">
-            R$297 pode parecer um valor pequeno…<br />
+            R$297/mês pode parecer um valor pequeno…<br />
             Mas pode ser o maior ponto de virada da sua saúde até hoje.
           </p>
           
@@ -21,8 +23,8 @@ const CheckoutSection = () => {
               </div>
             </div>
             
-            <h3 className="text-xl font-bold mb-4">
-              O que você receberá:
+            <h3 className="text-xl font-bold mb-4 flex items-center justify-center gap-2">
+              <span className="text-2xl">🎁</span> O que está incluso por R$297/mês:
             </h3>
             
             <ul className="text-left space-y-3 mb-6">
@@ -30,25 +32,25 @@ const CheckoutSection = () => {
                 <div className="bg-fitness-green rounded-full p-1 mt-1">
                   <Check className="h-3 w-3 text-white" />
                 </div>
-                <span>Plano alimentar 100% personalizado para seu corpo</span>
+                <span>Plano alimentar 100% personalizado</span>
               </li>
               <li className="flex items-start gap-2">
                 <div className="bg-fitness-green rounded-full p-1 mt-1">
                   <Check className="h-3 w-3 text-white" />
                 </div>
-                <span>Análise individual feita por Filipe Linares</span>
+                <span>Periodização de treino específica pro seu objetivo</span>
               </li>
               <li className="flex items-start gap-2">
                 <div className="bg-fitness-green rounded-full p-1 mt-1">
                   <Check className="h-3 w-3 text-white" />
                 </div>
-                <span>Lista de compras e substituições adaptadas</span>
+                <span>Suporte direto via WhatsApp</span>
               </li>
               <li className="flex items-start gap-2">
-                <div className="bg-fitness-blue rounded-full p-1 mt-1">
+                <div className="bg-fitness-green rounded-full p-1 mt-1">
                   <Check className="h-3 w-3 text-white" />
                 </div>
-                <span>Suporte via WhatsApp por 30 dias</span>
+                <span>Feedbacks semanais e ajustes mensais</span>
               </li>
               <li className="flex items-start gap-2">
                 <div className="bg-fitness-blue rounded-full p-1 mt-1">
@@ -59,8 +61,8 @@ const CheckoutSection = () => {
             </ul>
             
             <div className="mb-6">
-              <p className="text-gray-500 text-sm mb-1">Investimento único de:</p>
-              <p className="text-3xl font-bold text-fitness-green">R$297</p>
+              <p className="text-gray-500 text-sm mb-1">Investimento mensal de:</p>
+              <p className="text-3xl font-bold text-fitness-green">R$297/mês</p>
             </div>
             
             <Button size="lg" className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto w-full">Plano 100% personalizado</Button>
@@ -79,4 +81,5 @@ const CheckoutSection = () => {
       </div>
     </section>;
 };
+
 export default CheckoutSection;

@@ -122,16 +122,15 @@ const ProcessSection = () => {
         
         <div className="bg-white p-6 rounded-lg shadow-md border border-fitness-green/20 max-w-3xl mx-auto">
           <h3 className="font-bold text-xl mb-4 flex items-center gap-2">
-            <span className="text-2xl">🎁</span> O que você recebe:
+            <span className="text-2xl">🎁</span> O que está incluso por R$297/mês:
           </h3>
           
           <ul className="space-y-3 mb-6">
             {[
-              "Plano alimentar personalizado calculado para seu corpo",
-              "Treino personalizado para seu objetivo e nível",
-              "Recomendações práticas para seu dia a dia",
-              "Lista de compras personalizada",
-              "Substituições saudáveis para suas preferências"
+              "Plano alimentar 100% personalizado",
+              "Periodização de treino específica pro seu objetivo",
+              "Suporte direto via WhatsApp",
+              "Feedbacks semanais e ajustes mensais"
             ].map((item, index) => (
               <li key={index} className="flex items-start gap-2">
                 <div className="bg-fitness-green rounded-full p-1 mt-1">
@@ -166,7 +165,7 @@ const ProcessSection = () => {
         <div className="mt-10 text-center">
           <div className="mb-4">
             <p className="text-sm text-gray-500">Tudo isso por apenas</p>
-            <p className="text-3xl font-bold text-fitness-green">R$297</p>
+            <p className="text-3xl font-bold text-fitness-green">R$297/mês</p>
           </div>
           
           <Button onClick={scrollToCheckout} size="lg" className="bg-fitness-green hover:bg-fitness-darkgreen text-white text-lg px-8 py-6 h-auto">🔒 Quero meu plano personalizado</Button>
