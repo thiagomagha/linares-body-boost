@@ -27,7 +27,7 @@ const celebrities: Celebrity[] = [
   {
     name: "Peixe",
     image: "/lovable-uploads/d9dcaed5-098c-4cf6-8021-901846180cb9.png",
-    description: "Atleta"
+    description: "YouTuber"
   }, 
   {
     name: "Ramon Dino",
